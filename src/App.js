@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import FirstLesson from './FirstLesson';
-import GitHubApp from './GitHubApp'
-
+// import FirstLesson from './FirstLesson';
+// import GitHubApp from './GitHubApp';
+import PlayNineApp from './PlayNineApp';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <FirstLesson />
-        <GitHubApp />
+      <div className="container">
+        {/* <FirstLesson /> */}
+         {/* <GitHubApp />  */}
+         <hr />
+         <PlayNineApp />
       </div>
     );
   }
